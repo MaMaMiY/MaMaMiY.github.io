@@ -50,7 +50,7 @@ function hit(id){
 function show(){
     if(playing){
       var ran = Math.floor(Math.random()*30);
-      document.getElementById(ran).innerHTML = "<img src = image.png>";
+      document.getElementById(ran).innerHTML = "<img src = https://mamamiy.github.io/game/image.png>";
       setTimeout("document.getElementById("+ran+").innerHTML=\"\"", 2000);
     }
 }
