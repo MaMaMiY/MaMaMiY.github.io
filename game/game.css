@@ -22,7 +22,9 @@
 }
 table{
   width: 960px;
-  margin: 0 auto;
+  margin: 500px auto,0,auto;
+
+  background-color: #013f35;
 }
 
 td{
